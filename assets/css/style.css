@@ -1,0 +1,144 @@
+body{
+    font-family: "Battambang", system-ui;
+    font-size: 20px;
+
+}
+
+/* -------------------------page index--------------- */
+.date-time{
+    padding-block: 60px;
+}
+.local-area{
+    padding-block: 60px;
+}
+.local-area .card img{
+    height: 300px;
+}
+.abroad-area .card img{
+    height: 300px;
+
+}
+.service-area{
+    background-image: url(../imgs/details/background-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.service-blog{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.614);
+}
+.memorie-area img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-icon a{
+    text-decoration: none;
+    margin-inline-end: 10px;
+    padding: 4px 8px;
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+    transition-duration: 0.3s;
+}
+.footer-icon a:hover{
+    background-color: white;
+    color: blue;
+}
+.footer-link a{
+    color: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+}
+.footer-link a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+/* -----------------------page index--------------------- */
+/* -------------------------Home page============================= */
+/* --------------------header------------ */
+.dropdown .drop-menu{
+    display: block;
+}
+/* --------------------hero-banner */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-slide img{
+    height: 400px;
+}
+.banner-bank{
+    background-image: url(../imgs/banner/banner-6.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-pp{
+    background-image: url(../imgs/banner/banner-7.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-felter{
+    width: 100%;
+    max-height: 100%;
+    background-color: rgba(43, 40, 40, 0.422);
+    position: absolute;
+}
+.translator-area .card img{
+    width: 100%;
+    height: 400px;
+}
+.translator-area .card .card-header{
+    right: 550px;
+    transition-duration: 0.5s;
+}
+.translator-area .card  img{
+    transition-duration: 0.5s;
+}
+.translator-area .card:hover  img{
+    transform: scale(1.1);
+    
+}
+.translator-area .card:hover .card-header{
+    right: 0px;
+}
+footer{
+    background-image: url(../imgs/footer/img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+footer .onfooter{
+    background-color: rgba(0, 0, 0, 0.743);
+    height: 100%;
+    width: 100%;
+}
+/* -------------------Local-travel */
+.hero-banner .banner-font{
+    font-family: "Konkhmer Sleokchher", system-ui;
+}
